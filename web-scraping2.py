@@ -16,7 +16,7 @@ print(tag.attrs) #nesneye ait özellikler
 tags = doc.find_all(["p", "div", "li"]) #<p>, <div>, <li> blokları
 print(tags)
 
-tagss = doc.find_all(["a"], string="Example Link 1")
+tagss = doc.find_all(["a"], string="Example Link 1") #<a> bloğunda ki stringleri arar ama eksik yazdığın zaman boş küme dönüyor, stringi tam yazmalısın
 print(tagss)
 
 tagss_1 = doc.find_all(class_ = "button")

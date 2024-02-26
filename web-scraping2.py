@@ -19,6 +19,7 @@ print(tags)
 tagss = doc.find_all(["a"], string="Example Link 1") #<a> bloğunda ki stringleri arar ama eksik yazdığın zaman boş küme dönüyor, stringi tam yazmalısın
 print(tagss)
 
+
 tagss_1 = doc.find_all(class_ = "button")
 print(tagss_1)
 
